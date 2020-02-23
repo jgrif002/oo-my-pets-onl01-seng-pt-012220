@@ -1,5 +1,8 @@
 class Cat
-  attr_accessor :name, :owner 
+  attr_accessor :owner
+  attr_reader :name 
   
-  def initialize 
+  def initialize(name)
+    @name = name 
+    @owner = owner 
 end
