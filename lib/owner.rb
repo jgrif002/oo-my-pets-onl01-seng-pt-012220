@@ -11,7 +11,7 @@ class Owner
   end 
   
   def self.all 
-    Owner.collect.all
+    self.collect.all
   end 
   
 end
